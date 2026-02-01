@@ -1,14 +1,18 @@
-﻿# Analog-Motor-SoftStart
+﻿# Analog Motor Soft Start Controller
 
-Electronic hardware module designed using **Altium Designer**.
+Hardware PWM motor controller.
+
+## Function
+Smooth motor startup without MCU.
+
+## Key Specifications
+- PWM: NE555
+- Regulator: 7812
+- MOSFET: IRFZ44N
+- Feature: Soft-start capacitor
 
 ## Hardware Preview
 ![Preview](preview.png)
 
-## Contents
-- Schematic
-- PCB Layout
-- 3D View
-
 ---
-Designed by **HOANG LE TRUNG KIEN**
+Designed by HOANG LE TRUNG KIEN
